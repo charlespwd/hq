@@ -1,6 +1,6 @@
 {
   "name": "@cpclermont/hq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jq's not sophisticated HTML cousin",
   "main": "bin/hq.js",
   "bin": {
