@@ -1,6 +1,6 @@
 # hq
 
-[`jq`](https://stedolan.github.io/jq/manual/)'s not as sophisticated cousin.
+[`jq`](https://stedolan.github.io/jq/manual/)'s not as sophisticated cousin but for HTML.
 
 ## Installation
 
@@ -69,6 +69,10 @@ curl -s https://www.webpagetest.org | hq '
   head > link[rel=stylesheet]
   | attr(src, href)'
 ```
+
+## Notes
+
+This is scrappy and nowhere near as good as jq. But it's better than nothing :)
 
 ## License
 
