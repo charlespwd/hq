@@ -1,10 +1,10 @@
 {
   "name": "@cpclermont/hq",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "jq's not sophisticated HTML cousin",
   "main": "bin/hq.js",
   "bin": {
-    "hq": "./bin/hq.js"
+    "hq": "bin/hq.js"
   },
   "keywords": [
     "html",
@@ -17,5 +17,17 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "commander": "^6.2.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlespwd/hq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/charlespwd/hq/issues"
+  },
+  "homepage": "https://github.com/charlespwd/hq#readme"
 }
