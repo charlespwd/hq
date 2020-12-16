@@ -1,0 +1,21 @@
+{
+  "name": "@cpclermont/hq",
+  "version": "1.0.0",
+  "description": "jq's not sophisticated HTML cousin",
+  "main": "bin/hq.js",
+  "bin": {
+    "hq": "./bin/hq.js"
+  },
+  "keywords": [
+    "html",
+    "cli",
+    "jq",
+    "traversal"
+  ],
+  "author": "CP Clermont",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^6.2.1"
+  }
+}
