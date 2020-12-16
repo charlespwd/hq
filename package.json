@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "jq's not sophisticated HTML cousin",
   "main": "bin/hq.js",
+  "homepage": "https://github.com/charlespwd/hq",
   "bin": {
     "hq": "bin/hq.js"
   },
